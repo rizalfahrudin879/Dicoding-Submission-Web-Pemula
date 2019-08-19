@@ -1,0 +1,231 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+body {
+    background-color: #f7f9fc;
+}
+
+.header{
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px
+}
+.header ul {
+    padding: 0;
+  }
+
+  .header ul li {
+    display: inline-block;
+    position: relative;
+  }
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    background-image: url(../image/bg-content2.png);
+    background-repeat: repeat;
+}
+
+.welcome{
+    text-align: center;
+    margin: 20px;
+    font-size: 45px;
+}
+
+.box_one {
+    position: relative;
+    background-image: url(../image/bg-bio1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 7px 2px grey;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.4;
+    border-radius: 10px;
+}
+
+.box_one_profil {
+    position: relative;
+    width: 200px;
+    padding: 35px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.box_one_profil img {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px;
+}
+
+.box_dua {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.isi_box_dua {
+    width: 100%;
+    height: 100%;
+}
+
+.box_dua_isi {
+    float: left;
+    width: 40%;
+    height: 120px;
+    padding: 5%;
+}
+
+.info_box_dua {
+    border-bottom: 2px solid gray;
+    padding: 5px;
+}
+
+.about_box_dua {
+    text-align: justify;
+}
+
+.box_tiga{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+.find_me{
+    width: 600px;
+    height: 250px;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 30px;
+}
+.find_me p{
+    padding: 12px;
+    float: left;
+    border-radius: 30px 5px;
+    box-shadow: 2px 2px 7px 2px grey;
+}
+
+.find_me img {
+    margin: 20px;
+    width:80px;
+    height:80px;
+}
+
+.find_me ul li {
+    display: inline-block;
+}
+
+.footer {
+    background-color: white;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+
+/* Responsive di mobile midle width 321 - 425px 
+    Rizal Fahrudin - UWU */
+
+@media(min-width:321px) and (max-width:425px){
+    
+    .header{
+        background-color: white;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 10px
+    }
+
+    .container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 10px;
+
+        background-image: url(../image/bg-content2.png);
+        background-repeat: repeat;
+    }
+
+    .welcome{
+        text-align: center;
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    .box_dua {
+        position: relative;
+        width: 100%;
+        height: 700px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+
+    .isi_box_dua {
+        width: 100%;
+        height: 80%;
+    }
+    .box_dua_isi {
+        width: 90%;
+        height: 100px;
+        margin-top: 30px;
+    }
+    #tambahan_edu{
+        height: 60px;
+    }
+
+    .info_box_dua {
+        border-bottom: 2px solid gray;
+        padding: 5px;
+    }
+
+    .about_box_dua {
+        text-align: justify;
+    }
+
+    .box_tiga{
+        width: 100%;
+        height: 200px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    .find_me{
+        width: 90%;
+        height: 250px;
+        margin: 0 auto;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .find_me p{
+        padding: 12px;
+        float: left;
+        border-radius: 30px 5px;
+        box-shadow: 2px 2px 7px 2px grey;
+    }
+
+    .find_me img {
+        margin: 15px;
+        width:30px;
+        height:30px;
+    }
+
+    .find_me ul li {
+        display: inline-block;
+    }
+
+    .footer {
+        width: 90%;
+    }
+}
